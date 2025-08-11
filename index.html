@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <div>Vidhi Singh</div>
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <li class="home"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="bars" id="barsbtn">
+            <i class="uil uil-bars"></i>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="img1">
+            <img src="portfolioimg/topimg1.jpeg">
+
+        </div>
+
+        <div class="left-left">
+            <h2>Hi, I'm Vidhi</h2>
+            <h1>And I'm a Web Developer</h1>
+            <p> I create custom websites to help businesses to grow. </p>
+        </div>
+        <div class="icon">
+            <ul class="sociallinks">
+                <li><a href="http://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></a></li>
+                <li><a href="http://github.com" target="_blank"><i class="uil uil-github"></i></a></li>
+                <li><a href="http://twitter.com" target="_blank"><i class="uil uil-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="bttn">
+            <a href="https://drive.google.com/file/d/1HKvBWqZh0V2bkVMZJIwKimuOYVe21Waw/view?usp=sharing">Download
+                Resume</a>
+        </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="portfolioimg/pimg2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h2>About Me </h2>
+                    <p> I'm a B.tech CSE student who is passionate about technology and innovation. I have
+                        currently completed my Web Development Learning with some funful projects. I am a highly skilled
+                        and experienced Web Developer who built custom websites. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>
+                                <p>HTML, CSS, Javascipt, MERN</p>
+                            </li>
+                            <li><span>Languages/Databases</span><br>
+                                <p>Javascipt, Java, MongoDB</p>
+                            </li>
+                            <li><span>Coursework</span><br>
+                                <p>Data Structures, Algorithms, DBMS, OS</p>
+                            </li>
+                            <li><span>Personal Competencies</span><br>
+                                <p>Problem Solving, Technical Skills, Teamwork, Communication</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development Internship</span><br>
+                                <p>At CodSoft</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>
+                                <p>Web Development Internship at CodSoft</p>
+                            </li>
+                            <li><span>2022-2026</span><br>
+                                <p>B.Tech from GD Goenka University</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Projects/Screenshot (141).png">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class="uil uil-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Projects/Screenshot (143).png">
+                    <div class="layer">
+                        <h3> Professional Portfolio </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class="uil uil-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Projects/Screenshot (142).png">
+                    <div class="layer">
+                        <h3>Real Calculator</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#"><i class="uil uil-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me </h1>
+            <p><i class="uil uil-telegram-alt"></i>vidhi@gmail.com</p>
+            <p><i class="uil uil-phone-volume"></i>+912233445566</p>
+            <div class="social-icons">
+                <a href="http://linkedin.com" target="_blank"><i class="uil uil-linkedin"></i></a>
+                <a href="http://github.com" target="_blank"><i class="uil uil-github"></i></a>
+                <a href="http://twitter.com" target="_blank"><i class="uil uil-twitter"></i></a>
+                <a href="http://instagram.com" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class="bttn2">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="copyright"> Copyright &copy Vidhi. Made with <i class="uil uil-coffee"></i> </div>
+
+    
+<script>
+    const bars = document.querySelector(".bars");
+const nav = document.querySelector(".navbar");
+
+bars.addEventListener("click", () => {
+  nav.classList.toggle("active");
+  bars.classList.toggle("active");
+});
+
+document.querySelectorAll(".navbar a").forEach(link => {
+  link.addEventListener("click", () => {
+    nav.classList.remove("active");
+    bars.classList.remove("active");
+  });
+});
+</script>
+
+</body>
+
+</html>
